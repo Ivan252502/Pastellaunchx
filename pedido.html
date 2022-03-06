@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería azteca pedido</title>
+</head>
+<body>
+    <h2>Realiza aquí tu pedido</h2>
+    <form action="pedido.js"></form>
+
+    <label for="nombre">Nombre completo</label> <br>
+    <input type="text" name="nombre" id="nombre"> <br><br>
+
+    <label for="celular">Teléfono</label> <br>
+    <input type="tel" name="celular" id="celular" maxlength="10"> <br><br>
+
+    <label for="kilos">¿De cuantos kilos le gustaría?</label> <br>
+    <input type="text" name="kilos" id="kilos"> <br><br>
+
+    <label for="bizcocho">Sabor del bizcocho</label> <br>
+    <input type="radio" id="bizcocho1" name="bizcocho" value="Chocolate">
+    <label for="bizcocho1">Chocolate</label><br>
+    <input type="radio" id="bizcocho2" name="bizcocho" value="Vainilla">
+    <label for="bizcocho2">Vainilla</label><br>
+    <input type="radio" id="bizcocho3" name="bizcocho" value="Fresa">
+    <label for="bizcocho3">Fresa</label><br>
+    <input type="radio" id="bizcocho4" name="bizcocho" value="Limón">
+    <label for="bizcocho4">Limón</label><br>
+    <input type="radio" id="bizcocho5" name="bizcocho" value="Naranja">
+    <label for="bizcocho5">Naranja</label> <br><br>
+   
+    <label for="cubierta">Escoge una o más cubiertas</label> <br>
+    <input type="checkbox" name="cubierta" id="vainilla" value="Vainilla">
+    <label for="vainilla">Vainilla</label><br>
+    <input type="checkbox" name="cubierta" id="cajeta" value="Cajeta">
+    <label for="cajeta">Cajeta</label><br>
+    <input type="checkbox" name="cubierta" id="chocolate" value="Chocolate">
+    <label for="chocolate">Chocolate</label><br>
+    <input type="checkbox" name="cubierta" id="chocoblanco" value="Chocolate blanco">
+    <label for="chocoblanco">Chocolate blanco</label><br>
+    <input type="checkbox" name="cubierta" id="fresa" value="Fresa">
+    <label for="fresa">Fresa</label><br>
+    <input type="checkbox" name="cubierta" id="almendras" value="Almendras">
+    <label for="almendras">Almendras</label><br>
+    <input type="checkbox" name="cubierta" id="naranja" value="Naranja">
+    <label for="naranja">Naranja</label> <br><br>
+
+    <label for="decoraciones">Expresa con detalle la decoración de tu pastel
+        <br> (también puedes pedir con texto, figuras, etc.)
+    </label><br>
+    <textarea name="decoracion" id="decoracion" cols="40" rows="15"></textarea> <br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Resetear">
+</body>
+</html>
